@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 75%
+    right: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 57%
+    left: -45%
 
 
 @keyframes float1
@@ -17,3 +17,374 @@
 
   100%
     transform: translateY(0px)
+
+// banner interno
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-interno.jpg") !important    
+
+.banner-interno__titulo__icono
+  background-color: white !important
+  
+.banner-interno__titulo h2
+  color: white !important 
+
+.banner-principal__img
+  align-self: center
+  padding-top: 1rem !important
+  padding-bottom: 0 !important
+
+// fondos
+.fondo
+  &-1
+    background-image: url('../assets/curso/tema1/fondo1.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top
+  &-2
+    background-color: #CCD3CA !important
+  &-3
+    background-color: #FFEFC2 !important
+  &-4
+    background-color: #B7CEAC !important
+  &-5
+    background-color: #FDE39C
+  &-6
+    background-color: #EB6F2D
+  &-7
+    background-color: #F6F6F6 !important
+  &-8
+    background-color: #3F6A30
+  &-9
+    background-color: #FAB729 
+  &-10
+    background-color: #FCC843
+    border-radius: 20px
+    padding: 5px
+  &-11
+    background-color: #FCEDE5 !important
+  &-12
+    background-image: url('../assets/curso/tema2/fondo1.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top
+  &-13
+    background-color: #406834 !important
+  &-14
+    background-color: #3F6A31 !important
+  &-15
+    background-color: #FFE6A1 !important
+  &-16
+    background-image: url('../assets/curso/tema2/fondo2.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom
+  &-17
+    background-image: url('../assets/curso/tema2/fondo3.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top
+    border-radius: 20px
+    box-shadow: 5px 5px 5px #70707046 
+  &-18
+    background-image: url('../assets/curso/tema2/figura5-1.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top
+    @media (min-width: 992px)
+      display: none
+  &-19
+    background-image: url('../assets/curso/tema2/figura5-2.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: right top
+    @media (min-width: 992px)
+      display: none
+  &-20
+    background-image: url('../assets/curso/tema2/figura5-3.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top left
+    @media (min-width: 992px)
+      display: none
+  &-21
+    background-image: url('../assets/curso/tema2/figura5-4.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: right top
+    @media (min-width: 992px)
+      display: none
+  &-22
+    background-image: url('../assets/curso/tema2/figura5-5.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: left top
+    @media (min-width: 992px)
+      display: none
+  &-23
+    background-image: url('../assets/curso/tema3/fondo.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: bottom
+  &-24
+    background-image: url('../assets/curso/tema4/fondo.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: bottom
+  &-25
+    background-color: #F9D5C2
+  &-26
+    background-image: url('../assets/curso/tema5/fondo1.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top
+  &-27
+    background-color:#D0EAC3 !important
+  &-28
+    background-color:#D8D8D8 
+
+.fondoblanco
+  background-color: #F6F6F6
+  box-shadow: 5px 5px 5px #70707046 
+
+.fondotitulo
+  background-color: #FFB338
+  border-top-left-radius: 30px
+  border-top-right-radius: 30px
+
+.fondonaranja
+  background-color: #FFB338
+
+// mostrar imagenes según resolución
+.mostrar
+  @media (max-width: 992px)
+    display: none
+
+.mostrar2
+  @media (min-width: 992px)
+    display: none
+
+//padding de figuras y texto
+.padd1
+  @media (max-width: 992px)
+    padding-top: 7em
+    padding-left: 12em
+  @media (max-width: 768px)
+    padding-top: 7em
+    padding-left: 11em
+  @media (max-width: 555px)
+    padding-top: 5em
+    padding-left: 9em
+  @media (max-width: 480px)
+    padding-top: 3em
+    padding-left: 30%
+
+.padd2
+  @media (max-width: 992px)
+    padding-top: 3.2em
+    padding-right: 7.5em
+    padding-left: 4em
+  @media (max-width: 768px)
+    padding-top: 2.5em
+    padding-right: 7em
+    padding-left: 3em
+  @media (max-width: 555px)
+    padding-top: 2.5em
+    padding-right: 6em
+    padding-left: 3em
+  @media (max-width: 500px)
+    padding-top: 2.5em
+    padding-right: 8em
+    padding-left: 2em
+  @media (max-width: 375px)
+    padding-top: 2.5em
+    padding-right: 8em
+    padding-left: 0.5em
+
+.padd3
+  @media (max-width: 992px)
+    padding-top: 3em
+    padding-left: 12em
+  @media (max-width: 768px)
+    padding-top: 4em
+    padding-left: 9.8em
+  @media (max-width: 555px)
+    padding-top: 2em
+    padding-left: 9.5em
+  @media (max-width: 480px)
+    padding-top: 2em
+    padding-left: 5em
+  @media (max-width: 400px)
+    padding-top: 4em
+    padding-left: 5em
+
+.padd4
+  @media (max-width: 992px)
+    padding-top: 3.2em
+    padding-right: 4em
+    padding-left: 10em
+  @media (max-width: 768px)
+    padding-top: 2.5em
+    padding-right: 2em
+    padding-left: 9em
+  @media (max-width: 555px)
+    padding-top: 2.5em
+    padding-right: 3em
+    padding-left: 8em
+  @media (max-width: 500px)
+    padding-top: 2.5em
+    padding-right: 1.5em
+    padding-left: 9em
+  @media (max-width: 400px)
+    padding-top: 2.5em
+    padding-right: 1em
+    padding-left: 9.5em
+
+// Cajones de texto
+.cajon.fondocuadrado:before
+  background-color: #4D793F
+
+.cajon.fondocuadrado2:before
+  background-color: #F19E72
+
+.cajon.fondocuadrado3:before
+  background-color: #FCC843
+
+// expandir fondos
+.ampliar
+  margin-left: -60px
+  margin-right: -60px
+
+// Personalizar tarjetas avatar
+.tarjeta-avatar > img
+    position: absolute
+    left: 50%
+    top: -16%
+    transform: translateX(-50%)
+    display: block
+    width: 300px !important
+    margin: 0 auto
+
+// personalizar tablas
+.bordederecha
+  border-right: 3px solid #949494 !important
+
+.anchocol
+  width: 50px !important
+
+// personalizar textos
+.texto-normal
+  font-weight: 500
+
+.resaltado
+  color: #FD6300
+
+.margenizq
+  margin-left: 10em
+
+//viñetas
+.fa-location-arrow:before
+    content: "\f124"
+
+//bloque
+.otrobloque .bloque-texto-g__texto 
+  position: relative
+  width: 65%
+  right: 34%
+  background-color: rgba(255, 255, 255, 0.95)
+  @media (max-width: 992px)
+    position: relative
+    width: 100%
+    height: 50%
+    left: 0
+    background-color: rgba(255, 255, 255, 0.95)
+
+.otrobloque .bloque-texto-g__img
+  width: 50%
+  position: absolute
+  top: -11.3%
+  left: 50%
+  background-position: top
+  background-size: 100% 108%
+  @media (max-width: 992px)
+    width: 100%
+    height: 70% !important
+    position: absolute
+    top: -14%
+    left: 0
+    bottom: 0
+    background-position: top
+    background-size: 100% 108%
+
+.otrobloque2 .bloque-texto-g__texto 
+  position: relative
+  width: 65%
+  right: 34%
+  background-color: rgba(255, 255, 255, 0.95)
+  @media (max-width: 992px)
+    position: relative
+    width: 100%
+    height: 50%
+    left: 0
+    background-color: rgba(255, 255, 255, 0.95)
+
+.otrobloque2 .bloque-texto-g__img
+  width: 50%
+  position: absolute
+  top: -11.3%
+  left: 51%
+  background-position: top
+  background-size: 100% 108%
+  @media (max-width: 992px)
+    width: 102%
+    height: 70% !important
+    position: absolute
+    top: -7%
+    left: -1%
+    bottom: 0
+    background-position: top
+    background-size: 100% 108%
+
+.sombras
+  box-shadow: 5px 5px 5px #70707046 
+
+// slider
+.slyder-a__tipo-a .slyder-a__bullets
+  position: absolute
+  bottom: 20px
+  left: 50%
+  transform: translateX(-50%)
+
+//posición de imagen
+.posicion
+  position: relative
+  margin-top: -100px
+  @media (max-width: 1400px)
+    margin-top: -80px
+  @media (max-width: 991px)
+    margin-top: -70px
+  @media (max-width: 568px)
+    margin-top: -50px
+
+// tabs
+.tabs-a__tab:last-child
+  margin-bottom: 0 !important
+  background-color: #D8D8D8 
+
+.tabs-a.color-acento-contenido .tabs-a__tab__selected
+  color: #fff !important
+
+.tabs-a__tab
+  width: 115% 
+  @media (min-width: 1200px) and (max-width: 1400px)
+    width: 130%
+  @media (max-width: 991px)  
+    width: 105%
+  @media (max-width: 576px)  
+    width: 100%
+
+.tarjeta.fondo-27
+  width: 95% !important
+  margin-left: 5%
+  @media (min-width: 1200px) and (max-width: 1400px)
+    width: 90% !important
+    margin-left: 8%
