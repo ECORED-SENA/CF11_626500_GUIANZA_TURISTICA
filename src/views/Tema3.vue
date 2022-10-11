@@ -110,9 +110,9 @@
           .col-lg-7.col-md-5.col-sm-auto.col-auto(data-aos="fade-down")
             p.text-center Ejemplo de un cuadro de contingencias para un recorrido de naturaleza.
           .col-lg-2.col-md-3.col-sm-auto.col-auto.mb-4(data-aos="fade-down-left")
-            a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo1.pdf')" target="_blank" type="application/pdf")
               span Descargar
-              i.fas.fa-file-download            
+              i.fas.fa-file-download    
 
 </template>
 
