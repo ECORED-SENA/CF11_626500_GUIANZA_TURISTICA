@@ -141,6 +141,31 @@
     background-color:#D0EAC3 !important
   &-28
     background-color:#D8D8D8 
+  &-29
+    background-image: url('../assets/curso/tema1/fondo2.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top center
+  &-30
+    background-image: url('../assets/curso/tema3/fondo1.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top center
+
+.fondogris1
+  background-color: #E2E8E0
+  border-bottom: 5px solid #406834
+  border-top-right-radius: 50px
+
+.fondogris2
+  background-color: #E2E8E0
+  border-top: 5px solid #406834
+  border-bottom-right-radius: 50px
+
+.fondorosa
+  background-color: #FFF4E1
+  border-top: 5px solid #406834
+  border-bottom-left-radius: 50px
 
 .fondoblanco
   background-color: #F6F6F6
@@ -156,11 +181,19 @@
 
 // mostrar imagenes según resolución
 .mostrar
-  @media (max-width: 992px)
+  @media (max-width: 991px)
     display: none
 
 .mostrar2
-  @media (min-width: 992px)
+  @media (max-width: 576px)
+    display: none
+
+.mostrar4
+  @media (min-width: 577px)
+    display: none
+
+.mostrar5
+  @media (min-width: 991px)
     display: none
 
 //padding de figuras y texto
@@ -169,13 +202,17 @@
     padding-top: 7em
     padding-left: 12em
   @media (max-width: 768px)
-    padding-top: 7em
+    padding-top: 5em
     padding-left: 11em
   @media (max-width: 555px)
     padding-top: 5em
     padding-left: 9em
-  @media (max-width: 480px)
-    padding-top: 3em
+  @media (max-width: 490px)
+    padding-top: 4.5em
+    padding-left: 30%
+  @media (max-width: 470px)
+    padding-top: 4em
+    padding-bottom: 1em
     padding-left: 30%
 
 .padd2
@@ -205,13 +242,13 @@
     padding-top: 3em
     padding-left: 12em
   @media (max-width: 768px)
-    padding-top: 4em
+    padding-top: 2em
     padding-left: 9.8em
   @media (max-width: 555px)
     padding-top: 2em
     padding-left: 9.5em
   @media (max-width: 480px)
-    padding-top: 2em
+    padding-top: 2.8em
     padding-left: 5em
   @media (max-width: 400px)
     padding-top: 4em
@@ -304,7 +341,8 @@
   top: -11.3%
   left: 50%
   background-position: top
-  background-size: 100% 108%
+  background-size: cover
+  background-repeat: no-repeat
   @media (max-width: 992px)
     width: 100%
     height: 70% !important
@@ -313,7 +351,8 @@
     left: 0
     bottom: 0
     background-position: top
-    background-size: 100% 108%
+    background-size: cover
+    background-repeat: no-repeat
 
 .otrobloque2 .bloque-texto-g__texto 
   position: relative
@@ -333,7 +372,8 @@
   top: -11.3%
   left: 51%
   background-position: top
-  background-size: 100% 108%
+  background-size: cover
+  background-repeat: no-repeat
   @media (max-width: 992px)
     width: 102%
     height: 70% !important
@@ -342,7 +382,8 @@
     left: -1%
     bottom: 0
     background-position: top
-    background-size: 100% 108%
+    background-size: cover
+    background-repeat: no-repeat
 
 .sombras
   box-shadow: 5px 5px 5px #70707046 
@@ -388,3 +429,22 @@
   @media (min-width: 1200px) and (max-width: 1400px)
     width: 90% !important
     margin-left: 8%
+
+//-tamaño imagen
+.sizeimg
+  width: 55px
+  height: 55px
+  @media (max-width: 576px)  
+    width: 75px
+    height: 75px
+    margin: 0 auto
+.sizeimg2
+  width: 75px
+  height: 75px
+  margin: 0 auto
+
+// mover imagen
+.correrabajo
+  position: relative
+  margin-bottom: -30px
+  z-index: 99999

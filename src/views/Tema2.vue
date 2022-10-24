@@ -117,7 +117,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-2.col-md-3.col-sm-3.col-4.p-3
               img(src='@/assets/curso/tema2/figura1.svg')
-            .col-lg-10.col-md-9.col-sm-9.col-8
+            .col-lg-10.col-md-9.col-sm-9.col-8.py-3
               span.text-bold TIP: 
               span Es recomendable mantener informados a los visitantes de los posibles riesgos que pueden enfrentar en cada actividad.
         p Dentro del ejercicio de la guianza, uno de los momentos en que se realizan más actividades es durante la planeación, es en el antes de la operación donde, con una mirada global, se pueden diligenciar formatos fundamentales, como el Plan de Acción, que es donde se define la ruta para lograr los objetivos, y el Plan de Contingencias, que es donde se plasman los procedimientos a ejecutar cuando un acontecimiento imprevisto ocurre.
@@ -139,20 +139,46 @@
           span.resaltado “la medida de cantidad con referencia a una escala determinada”
           span . Pero, ¿esto qué quiere decir? Pues, vea lo que representa:
       .row.justify-content-center.fondo-17
+        //- Mayor a 991px
         .col-xxl-11.col-xl-12.col-lg-12.mb-5(data-aos="fade-down-left")
           img.mostrar(src='@/assets/curso/tema2/figura5.svg')
-        .col-md-4.col-sm-5.col-7.p-3.fondotitulo.mostrar2.mb-0(data-aos="fade-down-left")
+        //-menor de 991px
+        .col-auto.p-3.fondotitulo.mostrar5.mb-0(data-aos="fade-down-left")
           h3.text-center.m-auto Niveles de riesgo
-        .col-12.fondo-18.padd1.mb-4(data-aos="fade-down-right")
-          p.mostrar2 Si se habla de niveles de riesgo, se debe pensar en la gravedad de los mismos. 
-        .col-12.fondo-19.padd2.mb-4(data-aos="fade-down-left")
-          p.mostrar2 En el turismo, donde la responsabilidad del bienestar de los turistas recae sobre el guía
-        .col-12.fondo-20.padd3(data-aos="fade-down-right")
-          p.mostrar2 Se puede hacer el uso de la fórmula PxC=R para calcular el nivel de riesgo,
-        .col-12.fondo-21.padd2(data-aos="fade-down-left")
-          p.mostrar2 Donde se establecen los criterios de probabilidad y la gravedad de las consecuencias,
-        .col-12.fondo-22.padd4.mb-5(data-aos="fade-down-right")
-          p.mostrar2 y así poder tomar las decisiones adecuadas al momento de realizar una o varias actividades.
+        //- Menos de 576px
+        .row.justify-content-center.align-items-center
+          .col-6
+            img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo1.svg')
+          .col-12.fondogris1.p-4.mostrar4
+            p Si se habla de niveles de riesgo, se debe pensar en la gravedad de los mismos.  
+          .col-6
+            img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo2.svg')
+          .col-12.fondorosa.p-4.mostrar4
+            p En el turismo, donde la responsabilidad del bienestar de los turistas recae sobre el guía
+          .col-6
+            img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo3.svg')
+          .col-12.fondogris2.p-4.mostrar4
+            p Se puede hacer el uso de la fórmula PxC=R para calcular el nivel de riesgo,
+          .col-6
+            img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo4.svg')
+          .col-12.fondorosa.p-4.mostrar4
+            p Donde se establecen los criterios de probabilidad y la gravedad de las consecuencias,
+          .col-6
+            img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo5.svg')
+          .col-12.fondogris2.p-4.mostrar4
+            p y así poder tomar las decisiones adecuadas al momento de realizar una o varias actividades.
+
+        //- entre 576px y 991px
+        .col-12.fondo-18.padd1.mb-4.mostrar2(data-aos="fade-down-right")
+          p Si se habla de niveles de riesgo, se debe pensar en la gravedad de los mismos. 
+        .col-12.fondo-19.padd2.mb-4.mostrar2(data-aos="fade-down-left")
+          p En el turismo, donde la responsabilidad del bienestar de los turistas recae sobre el guía
+        .col-12.fondo-20.padd3.mostrar2(data-aos="fade-down-right")
+          p Se puede hacer el uso de la fórmula PxC=R para calcular el nivel de riesgo,
+        .col-12.fondo-21.padd2.mostrar2(data-aos="fade-down-left")
+          p Donde se establecen los criterios de probabilidad y la gravedad de las consecuencias,
+        .col-12.fondo-22.padd4.mb-5.mostrar2(data-aos="fade-down-right")
+          p y así poder tomar las decisiones adecuadas al momento de realizar una o varias actividades.
 
 
 </template>
