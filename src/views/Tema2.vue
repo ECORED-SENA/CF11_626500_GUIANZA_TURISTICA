@@ -96,8 +96,7 @@
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-down-left")
       h2 2.1 Instrumento
-    p.mb-5.pb-4(data-aos="fade-down-right") Es recomendable hacer un plan de administración de riesgos para cada recorrido, ruta, excursión, travesía, entre otras; este sirve para anticipar los riesgos, por medio de la evaluación de las causas y las consecuencias, y se deben proponer unas acciones de respuesta. Este plan lo pueden componer varios documentos, por ejemplo: una matriz de riesgos, un plan de acción y un plan de contingencia. Cada plan de administración de riesgos depende del tipo de actividad que se vaya a realizar y del cumplimiento del objetivo propuesto para la misma.
-
+    p.mb-5.pb-5.pb-sm-4(data-aos="fade-down-right") Es recomendable hacer un plan de administración de riesgos para cada recorrido, ruta, excursión, travesía, entre otras; este sirve para anticipar los riesgos, por medio de la evaluación de las causas y las consecuencias, y se deben proponer unas acciones de respuesta. Este plan lo pueden componer varios documentos, por ejemplo: una matriz de riesgos, un plan de acción y un plan de contingencia. Cada plan de administración de riesgos depende del tipo de actividad que se vaya a realizar y del cumplimiento del objetivo propuesto para la misma.
     .bloque-texto-g.fondo-14.p-3.p-sm-4.p-md-5.my-5.otrobloque(data-aos="fade-up-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/imagen2.png')})`}"

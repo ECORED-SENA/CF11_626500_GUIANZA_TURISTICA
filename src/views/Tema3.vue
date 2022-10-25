@@ -37,63 +37,63 @@
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono1.svg')
-              .col-xxl-9.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-md-0
+              .col-xxl-9.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-4
                 p.mb-0 Identifique y evalúe los riesgos que puedan generar emergencias en la actividad turística.
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono2.svg')
-              .col-xxl-9.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-md-0.mb-3
+              .col-xxl-9.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Identifique el grado de riesgo y de vulnerabilidad derivados de las posibles amenazas.
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono3.svg')
-              .col-xxl-9.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+              .col-xxl-9.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Establezca medidas preventivas y de protección para los diferentes escenarios de riesgo que se han identificado en la actividad turística.
               //-2
             .row.pt-2.pb-5.px-5.align-items-center.m-0.justify-content-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono4.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Organice el recurso humano y físico para hacer frente a cualquier tipo de emergencia.
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono5.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Ofrezca herramientas cognitivas y conductuales requeridas para ejecutar los planes de acción, con el fin de asegurar las personas (turistas) expuestas al peligro.
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono6.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Salvaguarde la vida e integridad de los turistas y guías de turismo.
             //-3
             .row.pt-2.pb-5.px-5.align-items-center.m-0.justify-content-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono7.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Preserve los bienes y activos de daños que se puedan generar como consecuencia de accidentes y emergencias.
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono8.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Teniendo en cuenta no solo lo económico, sino lo estratégico, garantizando la integridad tanto de los guías de turismo como de los turistas.
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
-                  img.sizeimg2(src='@/assets/curso/tema3/icono9.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+                  img.sizeimg(src='@/assets/curso/tema3/icono9.svg')
+              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Refrende la continuidad de las actividades y servicios turísticos de los guías de turismo.
             //-4
             .row.pt-2.pb-5.px-5.align-items-center.m-0.justify-content-center
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono10.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Asegure la mejor respuesta ante las emergencias que se generen en la actividad turística.
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono11.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3.mb-md-0
+              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
                 p.mb-0 Disponga de un esquema de activación, en respuesta ante cualquier emergencia en la prestación del servicio de guianza turística.
       .col-lg-4.col-md-12(data-aos="fade-down-left")
         img(src='@/assets/curso/tema3/imagen3.jpg')
