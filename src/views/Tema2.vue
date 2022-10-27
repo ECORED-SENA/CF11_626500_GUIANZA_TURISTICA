@@ -16,8 +16,8 @@
             .col-lg-2.col-md-3.col-sm-3.col-4
               img(src='@/assets/curso/tema2/figura1.svg')
             .col-lg-10.col-md-9.col-sm-9.col-8
-              span.text-bold TIP: 
-              span Los guías deben procurar estar actualizados en cursos de manejo y administración de riesgo.
+              span.text-bold Tip: 
+              span los guías deben procurar estar actualizados en cursos de manejo y administración de riesgo.
       .col-lg-5.col-md-12(data-aos="fade-down-right")
         img(src='@/assets/curso/tema2/imagen1.jpg')
     p.my-5(data-aos="fade-down-left") Una opción a considerar para estudio en la guianza es la teoría dinámica de accidentes, donde se consideran dos factores: los objetivos y los subjetivos, que se entrecruzan en el ejercicio de las actividades turísticas y, en su intersección, se genera un potencial de accidentes. Entre mayor sea la superposición de los factores, mayor es la probabilidad de que ocurra un accidente.
@@ -117,8 +117,8 @@
             .col-lg-2.col-md-3.col-sm-3.col-4.p-3
               img(src='@/assets/curso/tema2/figura1.svg')
             .col-lg-10.col-md-9.col-sm-9.col-8.py-3
-              span.text-bold TIP: 
-              span Es recomendable mantener informados a los visitantes de los posibles riesgos que pueden enfrentar en cada actividad.
+              span.text-bold Tip: 
+              span es recomendable mantener informados a los visitantes de los posibles riesgos que pueden enfrentar en cada actividad.
         p Dentro del ejercicio de la guianza, uno de los momentos en que se realizan más actividades es durante la planeación, es en el antes de la operación donde, con una mirada global, se pueden diligenciar formatos fundamentales, como el Plan de Acción, que es donde se define la ruta para lograr los objetivos, y el Plan de Contingencias, que es donde se plasman los procedimientos a ejecutar cuando un acontecimiento imprevisto ocurre.
     .row
       .col-auto.fondo-10.p-3(data-aos="fade-down-left")
@@ -153,15 +153,15 @@
           .col-6
             img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo2.svg')
           .col-12.fondorosa.p-4.mostrar4
-            p En el turismo, donde la responsabilidad del bienestar de los turistas recae sobre el guía
+            p En el turismo, donde la responsabilidad del bienestar de los turistas recae sobre el guía,
           .col-6
             img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo3.svg')
           .col-12.fondogris2.p-4.mostrar4
-            p Se puede hacer el uso de la fórmula PxC=R para calcular el nivel de riesgo,
+            p se puede hacer el uso de la fórmula PxC=R para calcular el nivel de riesgo,
           .col-6
             img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo4.svg')
           .col-12.fondorosa.p-4.mostrar4
-            p Donde se establecen los criterios de probabilidad y la gravedad de las consecuencias,
+            p donde se establecen los criterios de probabilidad y la gravedad de las consecuencias,
           .col-6
             img.mostrar4.correrabajo(src='@/assets/curso/tema2/riesgo5.svg')
           .col-12.fondogris2.p-4.mostrar4
@@ -171,11 +171,11 @@
         .col-12.fondo-18.padd1.mb-4.mostrar2(data-aos="fade-down-right")
           p Si se habla de niveles de riesgo, se debe pensar en la gravedad de los mismos. 
         .col-12.fondo-19.padd2.mb-4.mostrar2(data-aos="fade-down-left")
-          p En el turismo, donde la responsabilidad del bienestar de los turistas recae sobre el guía
+          p En el turismo, donde la responsabilidad del bienestar de los turistas recae sobre el guía,
         .col-12.fondo-20.padd3.mostrar2(data-aos="fade-down-right")
-          p Se puede hacer el uso de la fórmula PxC=R para calcular el nivel de riesgo,
+          p se puede hacer el uso de la fórmula PxC=R para calcular el nivel de riesgo,
         .col-12.fondo-21.padd2.mostrar2(data-aos="fade-down-left")
-          p Donde se establecen los criterios de probabilidad y la gravedad de las consecuencias,
+          p donde se establecen los criterios de probabilidad y la gravedad de las consecuencias,
         .col-12.fondo-22.padd4.mb-5.mostrar2(data-aos="fade-down-right")
           p y así poder tomar las decisiones adecuadas al momento de realizar una o varias actividades.
 

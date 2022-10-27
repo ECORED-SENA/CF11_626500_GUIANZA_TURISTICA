@@ -50,7 +50,7 @@
               .tarjeta.fondo-3
                 .p-4
                   h4.text-center Incierto o aleatorio
-                  p.text-center Esa incertidumbre no sólo se materializa de la forma normal en que generalmente es considerada (ocurrirá o no ocurrirá), sino que en algunas ocasiones se conoce con certeza que ocurrirá, pero se ignora cuándo”.
+                  p.text-center Esa incertidumbre no solo se materializa de la forma normal en que generalmente es considerada (ocurrirá o no ocurrirá), sino que en algunas ocasiones se conoce con certeza que ocurrirá, pero se ignora cuándo.
 
           .col-md-6.col-lg.my-5.mb-lg-0(data-aos="fade-down")
             .tarjeta-avatar
@@ -84,8 +84,8 @@
             .col-lg-1.col-md-2.col-sm-3.col-4
               img(src='@/assets/curso/tema1/figura5.svg')
             .col-lg-11.col-md-10.col-sm-9.col-8
-              span.text-bold TIP: 
-              span Tener diversas perspectivas aumenta la posibilidad de encontrar más riesgos y de definir mejores acciones, por lo tanto, se convierte en una toma de decisiones en conjunto.
+              span.text-bold Tip: 
+              span tener diversas perspectivas aumenta la posibilidad de encontrar más riesgos y de definir mejores acciones, por lo tanto, se convierte en una toma de decisiones en conjunto.
         .row.justify-content-center
           .col-lg-9.col-md-12.mb-4(data-aos="fade-down-right")
             p Técnicas de evaluación de riesgos hay varias, lo que quiere decir que es cuestión del guía o de la agencia elegir la que mejor le parezca, lo importante es que se haga el ejercicio, esto denota una preocupación por asegurar el bienestar de los turistas de una zona.
@@ -119,35 +119,35 @@
             td.bordederecha Extremadamente improbable
             td.bordederecha.anchocol
               h4 1
-            td Extremadamente improbable
+            td Sin consecuencias
           tr.text-center
             td.bordederecha.anchocol 
               h4 2
             td.bordederecha Muy poco probable
             td.bordederecha.anchocol
               h4 2
-            td Muy poco probable
+            td Lesión menor
           tr.text-center
             td.bordederecha.anchocol
               h4 3
             td.bordederecha Posible
             td.bordederecha.anchocol 
               h4 3
-            td Posible
+            td Lesión moderada con atención especializada
           tr.text-center
             td.bordederecha.anchocol 
               h4 4
             td.bordederecha Probable
             td.bordederecha.anchocol 
               h4 4
-            td Probable
+            td Evacuación
           tr.text-center
             td.bordederecha.anchocol 
               h4 5
             td.bordederecha Seguro
             td.bordederecha.anchocol
               h4 5
-            td Seguro
+            td Muerte
     .row.justify-content-center
       .col-lg-6.col-md-12.mb-4(data-aos="fade-down-right")
         p Todos los riesgos pueden ser evaluados y minimizados si se emplean los métodos adecuados. Aunque los valores de la tabla son subjetivos, al aplicar la fórmula se da un punto de partida para iniciar la evaluación del riesgo y, de esta forma, poder mitigarlo. Se podría aumentar la escala y definir más elementos, pero siempre el uso de la fórmula arrojaría un número que determinaría el valor del riesgo.
@@ -156,7 +156,7 @@
             .col-lg-2.col-md-3.col-sm-3.col-3
               img(src='@/assets/curso/tema1/figura8.svg')
             .col-lg-10.col-md-9.col-sm-9.col-9
-              span.text-bold TIP: 
+              span.text-bold Tip: 
               span para cada actividad turística a realizar, se debe aplicar la fórmula 
               span.resaltado.text-bold P x C = R 
               span y definir qué tanto riesgo se está dispuesto a asumir.

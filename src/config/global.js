@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'El plan de contingencia en el servicio guiado.',
+    componenteFormativo: 'El plan de contingencia en el servicio guiado',
     descripcionCurso:
       'Este componente está dirigido a todas las personas que componen el equipo de trabajo, pero con un especial enfoque al guía de turismo, persona responsable de orientar, conducir, instruir y asistir a los turistas. El objetivo es contextualizar y ampliar el conocimiento de los peligros y los riesgos derivados de este, a los que se encuentran expuestos los turistas, el guía y su equipo de trabajo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -239,7 +239,7 @@ export default {
         'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2011). Guía para la identificación de los peligros y la valoración de los riesgos en seguridad y salud ocupacional.',
       tipo: 'Libro',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000076763',
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?vid=SENA&search_scope=sena_completo&tab=sena_completo&docid=sena_aleph000059785&lang=es_ES&context=L&adaptor=Local%20Search%20Engine&query=any,contains,u%C3%ADa%20para%20la%20identificaci%C3%B3n%20de%20los%20peligros%20y%20la%20valoraci%C3%B3n%20de%20los%20riesgos%20en%20seguridad%20y%20salud%20ocupacional.&mode=Basic',
     },
     {
       tema: 'Metodología de identificación y valoración del riesgo',

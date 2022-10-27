@@ -72,12 +72,7 @@
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono7.svg')
               .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
-                p.mb-0 Preserve los bienes y activos de daños que se puedan generar como consecuencia de accidentes y emergencias.
-              .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
-                figure
-                  img.sizeimg(src='@/assets/curso/tema3/icono8.svg')
-              .col-xxl-10.col-xl-9.col-lg-8.col-md-9.col-sm-8.col-11.mb-3
-                p.mb-0 Teniendo en cuenta no solo lo económico, sino lo estratégico, garantizando la integridad tanto de los guías de turismo como de los turistas.
+                p.mb-0 Preserve los bienes y activos de daños que se puedan generar como consecuencia de accidentes y emergencias, teniendo en cuenta no solo lo económico, sino lo estratégico, garantizando la integridad tanto de los guías de turismo como de los turistas.
               .col-xxl-2.col-xl-2.col-lg-3.col-md-3.col-sm-4.col-4.ps-0.ps-sm-4.mb-3
                 figure
                   img.sizeimg(src='@/assets/curso/tema3/icono9.svg')
