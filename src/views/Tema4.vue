@@ -15,7 +15,7 @@
     p.my-5(data-aos="fade-up-right") En el siguiente video, podrá conocer el origen de la señalética, pictogramas y su clasificación, además de la tipología en el área de turismo.
     figure(data-aos="fade-up-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2VOMP8yBr98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.ampliar.fondo-24.px-5.justify-content-center
       .col-12(data-aos="fade-up-right")
         p.my-5 Luego de conocer un poco sobre señalética o iconografía, es importante identificar cómo se clasifican las señales:
